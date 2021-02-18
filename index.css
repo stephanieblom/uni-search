@@ -78,14 +78,13 @@ html {
     letter-spacing: -0.02em;
   }
   
-  a {
-    color: white;
-    text-decoration: underline;
-  }
-  
   li {
     color: #546285;
     font-size: 18px;
+  }
+
+  .ranking {
+    color:#546285;
   }
   
   .banner {
@@ -104,7 +103,6 @@ html {
     -ms-flex-align: center;
     align-items: center;
     background-color: #7385C3;
-    background-image: url('../images/Banner-Wave.svg');
     background-position: 0% 50%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -132,6 +130,10 @@ html {
   .thanks {
     text-align: center;
   }
+
+  .imgContent {
+    width: 150px;
+  }
   
   .nav-link {
     padding-right: 16px;
@@ -139,18 +141,18 @@ html {
     opacity: 0.8;
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
-    color: #28224b;
+    color: #7385C3;
     font-size: 20px;
     text-transform: none;
   }
   
   .nav-link:hover {
     opacity: 1;
-    color: #28224b;
+    color: #E79390;
   }
   
   .nav-link.w--current {
-    color: #082af0;
+    color:#7385C3;
   }
   
   .navigation-container {
@@ -234,10 +236,6 @@ html {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url('../images/BG-Shape.svg');
-    background-position: 100% 0%;
-    background-size: auto;
-    background-repeat: no-repeat;
   }
   
   .hero-content {
@@ -263,19 +261,14 @@ html {
   }
   
   .button {
-    /* min-height: 60px; */
-    /* padding: 20px 35px; */
     border-radius: 6px; 
     background-color: #7385C3;
     color: white;
-    /* background-image: url('../images/Button-Wave.svg'); */
     background-position: 0px 0px;
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-transition: background-color 250ms ease; 
     transition: background-color 250ms ease;
-    font-size: 18px;
-    text-align: center; 
   }
   
   .button:hover {
@@ -308,9 +301,6 @@ html {
     align-items: center;
   }
 
-  .form-group{
-      width: 80%;
-  }
   .hero-image-wrap {
     display: -webkit-box;
     display: -webkit-flex;
@@ -332,7 +322,7 @@ html {
     /* max-width: 580px; */
     margin-bottom: 20px;
     color: #E79390;
-    font-size: 80px;
+    font-size: 70px;
     line-height: 1;
     letter-spacing: -0.03em;
   }
@@ -534,13 +524,6 @@ html {
     align-items: flex-start;
   }
   
-  .content-block.bg-text {
-    background-image: url('../images/YumYum.png');
-    background-position: 50% 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  
   .image-block {
     display: -webkit-box;
     display: -webkit-flex;
@@ -615,50 +598,7 @@ html {
   .step-image {
     margin-bottom: 40px;
   }
-  
-  .cart-button {
-    position: relative;
-    min-height: 55px;
-    min-width: 55px;
-    padding: 13px;
-    border-radius: 4px;
-    background-color: #7385C3;
-    background-image: url('../images/Button-Wave.svg');
-    background-position: 0px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-transition: background-color 250ms ease;
-    transition: background-color 250ms ease;
-    font-size: 18px;
-    text-align: center;
-  }
-  
-  .cart-quantity {
-    position: absolute;
-    left: auto;
-    top: -6px;
-    right: -6px;
-    bottom: auto;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    height: 25px;
-    min-width: 25px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-radius: 100px;
-    box-shadow: 7px 7px 25px 0 rgba(126, 130, 143, 0.27);
-    color: #7385C3;
-    font-size: 13px;
-  }
-  
+
   .food-card {
     display: -webkit-box;
     display: -webkit-flex;
@@ -740,18 +680,11 @@ html {
   }
   
   .cta-grid {
-    min-height: 640px;
+    /* min-height: 640px; */
     grid-column-gap: 22px;
     grid-row-gap: 22px;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
-  }
-  
-  .cta-image {
-    background-image: url('../images/happy.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
   
   .cta-content {
@@ -774,7 +707,6 @@ html {
     -ms-flex-align: start;
     align-items: flex-start;
     background-color: #7385C3;
-    /* background-image: url('../images/Pattern-01.svg'); */
     background-position: 0px 0px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -785,8 +717,8 @@ html {
     background-color: transparent;
   }
   
-  .dark-span {
-    color: #1b9097;
+  .white-span {
+    color: white;
   }
   
   .default-state {
@@ -807,162 +739,6 @@ html {
     margin-right: 8px;
     margin-bottom: 0px;
     border-radius: 6px;
-  }
-  
-  .submit-button {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 50px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    border-radius: 6px;
-    background-color: #7385C3;
-    background-image: url('../images/Button-Wave.svg');
-    background-position: 0px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  
-  .remove-button {
-    color: #7385C3;
-    text-decoration: none;
-  }
-  
-  .apple-pay {
-    height: 44px;
-    border-radius: 4px;
-  }
-  
-  .checkout-button {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 52px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    border-radius: 4px;
-    background-color: #7385C3;
-  }
-  
-  .cart-line-item {
-    color: #7e828f;
-    font-size: 18px;
-  }
-  
-  .text-block {
-    color: #191b22;
-  }
-  
-  .text-block-2 {
-    color: #7385C3;
-  }
-  
-  .tab-menu-round {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 40px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-  }
-  
-  .tab-link-round {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    min-height: 52px;
-    margin-right: 15px;
-    margin-left: 15px;
-    padding-right: 45px;
-    padding-left: 45px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgba(97, 114, 131, 0.2);
-    border-radius: 6px;
-    background-color: transparent;
-    font-size: 16px;
-  }
-  
-  .tab-link-round.w--current {
-    border-color: rgba(97, 114, 131, 0);
-    border-radius: 6px;
-    background-color: #7385C3;
-    background-image: url('../images/Button-Wave.svg');
-    background-position: 0px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #E79390;
-  }
-  
-  .faq-question-wrap {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .faq-question-bar {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    padding-top: 40px;
-    padding-right: 15px;
-    padding-bottom: 40px;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-    color: #191b22;
-    font-size: 16px;
-    font-weight: 400;
-    text-decoration: none;
-  }
-  
-  .question-title {
-    color: #7385C3;
-    font-size: 18px;
-    font-weight: 600;
-  }
-  
-  .faq-content {
-    overflow: hidden;
-    margin-top: -2px;
-  }
-  
-  .faq-paragraph {
-    margin-bottom: 0px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #7e828f;
-    font-size: 18px;
-    line-height: 1.5;
-    letter-spacing: -0.25px;
   }
   
   .footer-legal {
@@ -1185,65 +961,7 @@ html {
   .required {
     color: #7385C3;
   }
-  
-  .button-white {
-    min-height: 60px;
-    padding: 20px 35px;
-    border-radius: 4px;
-    background-color: #7385C3;
-    background-image: url('../images/Button-Wave.svg');
-    background-position: 0px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-transition: background-color 250ms ease;
-    transition: background-color 250ms ease;
-    font-size: 18px;
-    text-align: center;
-  }
-  
-  .button-white.button-space {
-    margin-top: 40px;
-    background-color: #1b9097;
-    color: #f5fbfc;
-  }
-  
-  .content-section-bg {
-    position: relative;
-    padding: 140px 3%;
-    background-color: transparent;
-    background-image: url('../images/BG-Shape-Content.svg');
-    background-position: 50% 50%;
-    background-size: 96% 90%;
-    background-repeat: no-repeat;
-  }
-  
-  .cta-heading {
-    color: #E79390;
-    font-size: 55px;
-    line-height: 1.1;
-  }
-  
-  .cart-icon {
-    width: 25px;
-    margin-right: 0px;
-  }
-  
-  .paypal-checkout-form {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: #f5fbfc;
-  }
-  
-  .paragraph {
-    font-size: 16px;
-  }
-  
-  .container-tight {
-    width: 100%;
-    max-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+
   
   .title-wrap-left {
     margin-bottom: 60px;
@@ -1917,10 +1635,10 @@ html {
       -ms-grid-rows: auto auto;
       grid-template-rows: auto auto;
     }
-  
+/*   
     .cta-image {
       min-height: 420px;
-    }
+    } */
   
     .cta-content {
       min-height: 420px;
@@ -2068,7 +1786,7 @@ html {
       margin-bottom: 25px;
     }
   
-    .add-to-cart {
+    .send-email {
       margin-top: 20px;
     }
   
@@ -2123,10 +1841,6 @@ html {
     .button {
       width: 100%;
       max-width: 250px;
-    }
-  
-    .hero-h1 {
-      font-size: 50px;
     }
   
     .legal {
@@ -2522,4 +2236,176 @@ html {
   .topnav a:hover {
     background-color: #ddd;
     color: #E79390;
+  }
+
+  /* Search CSS */
+
+  .results {
+    padding-left: 10%;
+  }
+
+  .Btns {
+    display: block;
+    border-radius: 25px;
+    padding: 10px;
+    border-style: none;
+    transition: all ease .4s;
+    width: 50%;
+    margin: 10px 0;
+    border: 2px solid  #E79390;
+}
+.Btns:hover {
+    color: white;
+    background:  #E79390;
+    border: 2px solid  #E79390;
+    border-radius: 25px;
+    padding: 10px;
+    border-style: none;
+}
+.fa:hover {
+    color:  #E79390;
+}
+
+.backNext {
+    display: inline;
+    width: 40%;
+}
+.cookingIcon {
+    /* min-width: 15%; */
+    max-width: 10%;
+    margin: 0 10px;
+}
+
+.ingredientList ul {
+    padding-left: 5px;
+}
+.ingredientList ul li {
+    float: left;
+    margin: 0 10px;
+    width: 30%;
+    padding: 0 10px;
+}
+
+.hide {
+    display: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .homeImg {
+    max-width:600px
+} */
+
+.viewPort {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.favorite {
+    color: black;
+    text-decoration: none;
+    transition: all ease .4s;
+}
+.favorite:hover {
+    text-decoration: none;
+    color: orange;
+}
+.position-absolute {
+    top: 20px;
+    right: 20px;
+}
+.navbar-brand, .nav-item {
+    color: #3b3b3b;
+    transition: all ease .4s;
+    font-size: 1.3rem;
+
+}
+.navbar-brand:hover, .nav-item:hover {
+    color: orange;
+}
+.navbar-toggler-icon {
+    color: black;
+}
+.recipeIngredient {
+    margin: 50px 0;
+}
+.recipeSteps {
+    height: 100vh;
+    background-image: linear-gradient(45deg, #8fcfe3, #d6ffed);
+    /* height: 85vh; */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 50px auto;
+    filter: drop-shadow(1px 1px 5px rgb(138, 140, 141));
+}
+.card {
+    filter: drop-shadow(1px 1px 5px rgb(138, 140, 141));
+}
+
+
+@media only screen and (max-width: 768px) {
+    .ingredientList ul li {
+        float: left;
+        margin: 0 10px;
+        width: 45%;
+        padding: 0 10px;
+    }
+    #recipeTitle {
+        font-size: 1.5rem;
+    }
+
+    .results {
+        padding-left: 0;
+    }
+
+    .header {
+        padding: 35px 3% 140px;
+      }
+  }
+
+  
+  @media only screen and (max-width: 517px) {
+    .ingredientList ul li {
+        float: none;
+        margin: 0 10px;
+        width: 100%;
+        padding: 0 10px;
+    }
+    .urlInput {
+        width: 100%;
+    }
+
+    .results {
+        padding-left: 0;
+    }
+
+    .header {
+        padding: 20px 3% 140px;
+      }
+
+    .homeImg {
+        width: 90vp;
+    }
+    
+    .button {
+        width: 40px;
+    }
+
+    .card-body {
+        padding: 0px;
+    }
+
+    .hero-h1 {
+        font-size: 50px;
+    }
+  }
+
+  /* Popup */
+  .success {
+    color: #7385C3;
+    background-color:#E79390;
+    border-color: #7385C3;
+    display: none;
   }
