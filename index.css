@@ -2400,3 +2400,18 @@ img {
     border-color: #7385C3;
     display: none;
   }
+
+  /* Search Card */
+  .learnBtn {
+      margin: 0;
+  }
+
+  .programOverview {
+      margin-bottom: 2%;
+  }
+
+  @media only screen and (max-width: 517px) {
+    .learnBtn {
+        margin-bottom: 5px;
+    }
+}
