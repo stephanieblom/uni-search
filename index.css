@@ -2415,3 +2415,19 @@ img {
         margin-bottom: 5px;
     }
 }
+
+/* Closable button inside the container tab */
+.closebtn {
+    float: right;
+    color: #E79390;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .containerTab {
+    padding: 0;
+  }
+
+  .bold {
+      font-weight: bold;
+  }
