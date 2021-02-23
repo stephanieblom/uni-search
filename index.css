@@ -792,40 +792,8 @@ html {
     }
   }
 
-  /* Nav button */
-  .topnav {
-    overflow: hidden;
-    background-color: #7385C3;
-    position: relative;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: #E79390;
-  }
 
-  /* Search CSS */
-
+  /* Search.html specific CSS */
   .results {
     padding-left: 10%;
   }
@@ -852,95 +820,29 @@ html {
     color:  #E79390;
 }
 
-.backNext {
-    display: inline;
-    width: 40%;
-}
-.cookingIcon {
-    /* min-width: 15%; */
-    max-width: 10%;
-    margin: 0 10px;
-}
-
-.ingredientList ul {
-    padding-left: 5px;
-}
-.ingredientList ul li {
-    float: left;
-    margin: 0 10px;
-    width: 30%;
-    padding: 0 10px;
-}
-
-.hide {
-    display: none;
-}
 img {
     max-width: 100%;
     height: auto;
 }
-
-/* .homeImg {
-    max-width:600px
-} */
 
 .viewPort {
     width: 100%;
     padding: 20px 0;
 }
 
-.favorite {
-    color: black;
-    text-decoration: none;
-    transition: all ease .4s;
-}
-.favorite:hover {
-    text-decoration: none;
-    color: orange;
-}
-.position-absolute {
-    top: 20px;
-    right: 20px;
-}
 .navbar-brand, .nav-item {
     color: #3b3b3b;
     transition: all ease .4s;
     font-size: 1.3rem;
 
 }
-.navbar-brand:hover, .nav-item:hover {
-    color: orange;
-}
-.navbar-toggler-icon {
-    color: black;
-}
-.recipeIngredient {
-    margin: 50px 0;
-}
-.recipeSteps {
-    height: 100vh;
-    background-image: linear-gradient(45deg, #8fcfe3, #d6ffed);
-    /* height: 85vh; */
-    padding: 10px;
-    border-radius: 5px;
-    margin: 50px auto;
-    filter: drop-shadow(1px 1px 5px rgb(138, 140, 141));
-}
+
 .card {
     filter: drop-shadow(1px 1px 5px rgb(138, 140, 141));
 }
 
 
 @media only screen and (max-width: 768px) {
-    .ingredientList ul li {
-        float: left;
-        margin: 0 10px;
-        width: 45%;
-        padding: 0 10px;
-    }
-    #recipeTitle {
-        font-size: 1.5rem;
-    }
 
     .results {
         padding-left: 0;
@@ -953,15 +855,6 @@ img {
 
   
   @media only screen and (max-width: 517px) {
-    .ingredientList ul li {
-        float: none;
-        margin: 0 10px;
-        width: 100%;
-        padding: 0 10px;
-    }
-    .urlInput {
-        width: 100%;
-    }
 
     .results {
         padding-left: 0;
@@ -985,6 +878,10 @@ img {
 
     .hero-h1 {
         font-size: 50px;
+    }
+
+    .learnBtn {
+        margin-bottom: 5px;
     }
   }
 
@@ -1015,12 +912,6 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
-
-  @media only screen and (max-width: 517px) {
-    .learnBtn {
-        margin-bottom: 5px;
-    }
-}
 
 /* Closable button inside the container tab */
 .closebtn {
