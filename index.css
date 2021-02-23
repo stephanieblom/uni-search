@@ -82,10 +82,6 @@ html {
     color: #546285;
     font-size: 18px;
   }
-
-  .ranking {
-    color:#546285;
-  }
   
   .banner {
     display: -webkit-box;
@@ -127,17 +123,6 @@ html {
     align-items: center;
   }
   
-  .thanks {
-    text-align: center;
-  }
-
-  .imgContent {
-    width: 180px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
   .nav-link {
     padding-right: 16px;
     padding-left: 16px;
@@ -158,21 +143,6 @@ html {
     color:#7385C3;
   }
   
-  .navigation-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    max-width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-  
   .brand {
     margin-right: 40px;
   }
@@ -188,32 +158,6 @@ html {
     -ms-flex-align: center;
     align-items: center;
     background-color: #E79390;
-  }
-  
-  .navigation-right {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  
-  .navigation-left {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  
-  .nav-menu {
-    margin-right: 14px;
   }
   
   .hero-paragraph {
@@ -1481,14 +1425,6 @@ html {
       background-color: transparent;
     }
   
-    .navigation-right {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: reverse;
-      -webkit-flex-direction: row-reverse;
-      -ms-flex-direction: row-reverse;
-      flex-direction: row-reverse;
-    }
-  
     .menu-button {
       display: -webkit-box;
       display: -webkit-flex;
@@ -2408,6 +2344,17 @@ img {
 
   .programOverview {
       margin-bottom: 2%;
+  }
+
+  .ranking {
+    color:#546285;
+  }
+
+  .imgContent {
+    width: 180px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @media only screen and (max-width: 517px) {
