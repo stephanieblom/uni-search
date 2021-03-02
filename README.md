@@ -4,6 +4,8 @@ This web application is created to help highschool students compaire universitie
 
 Purpose is to have all information in one place as user friendly as possible. 
 
+# Simpletica Link 
+[Simpletica](https://stephanieblom.github.io/uni-search/)
 
 # DEMO 
 ![Simpletica Desktop Demo](assets/simpleticaDesktopDemo.gif)
